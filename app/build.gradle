@@ -35,11 +35,15 @@ dependencies {
     implementation "androidx.paging:paging-runtime:$paging_version" // For Kotlin use paging-runtime-ktx
 
     // alternatively - without Android dependencies for testing
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
     testImplementation "androidx.paging:paging-common:$paging_version" // For Kotlin use paging-common-ktx
+
+    //viewpager2
+    implementation "androidx.viewpager2:viewpager2:1.0.0"
 
     // optional - RxJava support
     implementation "androidx.paging:paging-rxjava2:$paging_version" // For Kotlin use paging-rxjava2-ktx
-    implementation"org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
     implementation 'com.github.bumptech.glide:glide:4.9.0'
     implementation 'com.google.android.material:material:1.1.0-alpha08'
     annotationProcessor 'com.github.bumptech.glide:compiler:4.9.0'
