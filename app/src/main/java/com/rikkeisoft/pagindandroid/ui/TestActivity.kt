@@ -155,8 +155,8 @@ class TestActivity : AppCompatActivity() {
 
     fun showIndicator() {
         if (isPage1Show) {
-            page1Hide()
             animationText1Rotate(true)
+            page1Hide()
             page2Show()
             animationText2Rotate(false)
         } else {
