@@ -15,9 +15,7 @@ import kotlinx.android.synthetic.main.activity_main.usersRecyclerView
 class MainActivity : AppCompatActivity() {
 
     private val viewModel by lazy { ViewModelProviders.of(this).get(MainViewModel::class.java) }
-    private val userAdapter by lazy {
-        UserAdapter()
-    }
+    private val userAdapter by lazy { UserAdapter() }
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -44,6 +42,7 @@ class MainActivity : AppCompatActivity() {
                         })
                 }
             }, {
+
             })
     }
 

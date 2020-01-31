@@ -15,7 +15,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name=".ui.TestActivity">
+        <activity android:name=".ui.a.AActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -25,6 +25,7 @@
 
         <activity android:name=".ui.FileActivity" />
         <activity android:name=".ui.MainActivity" />
+        <activity android:name=".ui.TestActivity" />
     </application>
 
 </manifest>
